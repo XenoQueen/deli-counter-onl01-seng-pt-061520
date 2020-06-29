@@ -4,7 +4,7 @@ def line(array)
   end
 else
   puts "The line is currently:"
-  
+  array.each_with_index
 end
 
 
